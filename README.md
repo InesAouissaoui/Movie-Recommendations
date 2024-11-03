@@ -14,24 +14,13 @@ This project uses the MovieLens dataset provided by Kaggle, containing user rati
 movies.csv: Contains movie metadata, including titles.
 ratings.csv: Contains user ratings for each movie along with timestamps.
 
-Installation
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/yourusername/yourprojectname.git
-cd yourprojectname
-Install the required libraries:
-
-bash
-Copy code
-pip install -r requirements.txt
-Usage
+**Usage**
 Load the Data: The dataset is loaded from the movies.csv and ratings.csv files.
 Model Initialization: The MaxFactorization class defines the matrix factorization model with Embedding layers for users and movies.
 Training: The model is trained using MSE loss and Adam optimizer, with an option to run on a GPU if available.
 Prediction: After training, the model can predict movie ratings for user-movie pairs.
 
-Results
+**Results**
 The trained model provides movie recommendations by predicting ratings, allowing users to view a list of top recommendations based on their previous interactions.
 
+![image](https://github.com/user-attachments/assets/d95382ed-146f-4c94-aaf3-aaf031dfccac)
